@@ -1,4 +1,5 @@
 from django.db import models
+from datetime import timedelta
 
 class Order(models.Model):
     """Represents a customer's order."""
@@ -44,6 +45,10 @@ class Cart(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
     expires_at = models.DateTimeField(null=True, blank=True)
+
+    def save(self, *args, **kwargs):
+        self.expires_at = self.created_at+timedelta(days=30)
+        super().save(*args, **kwargs)
 
 class CartItem(models.Model):
     """Represents an item within a shopping cart."""

@@ -4,8 +4,14 @@ class Category(models.Model):
     """Represents a category for products."""
     category_id = models.AutoField(primary_key=True)
     name = models.CharField(max_length=100)
-    kind = models.CharField(max_length=20)
-    parent = models.ForeignKey('self', on_delete=models.SET_NULL, null=True, blank=True)
+    parent = models.ForeignKey('self', on_delete=models.SET_NULL, null=True, blank=True, related_name='subcategories')
+
+    class Meta:
+        indexes=[
+            models.Index(
+                fields=['parent']
+            )
+        ]
 
 class Product(models.Model):
     """Represents a product offered by a store."""
@@ -22,12 +28,6 @@ class ProductCategory(models.Model):
     """Intermediate model to link products to categories."""
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
     category = models.ForeignKey(Category, on_delete=models.CASCADE)
-
-class ProductSubcategories(models.Model):
-    """Intermediate model to link products to subcategories."""
-    product = models.ForeignKey(Product, on_delete=models.CASCADE)
-    category = models.ForeignKey(Category, on_delete=models.CASCADE)
-    amount = models.IntegerField(null=True, blank=True)
 
 class ProductVariation(models.Model):
     """Represents a variation of a product, such as size or color."""
@@ -47,5 +47,3 @@ class Discount(models.Model):
     percentage = models.DecimalField(max_digits=5, decimal_places=2)
     start_date = models.DateTimeField(null=True, blank=True)
     end_date = models.DateTimeField(null=True, blank=True)
-
-# Create your models here.

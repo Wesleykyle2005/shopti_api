@@ -1,221 +1,242 @@
 {
-    "departamentos": [
-        {
-            "nombre": "Managua",
-            "municipios": [
-                "Managua",
-                "Ciudad Sandino",
-                "Tipitapa",
-                "Ticuantepe",
-                "San Rafael del Sur",
-                "El Crucero",
-                "Villa El Carmen",
-                "Mateare"
-            ]
-        },
-        {
-            "nombre": "León",
-            "municipios": [
-                "León",
-                "La Paz Centro",
-                "Nagarote",
-                "El Jicaral",
-                "Telica",
-                "Quezalguaque",
-                "Santa Rosa del Peñón",
-                "Malpaisillo"
-            ]
-        },
-        {
-            "nombre": "Chinandega",
-            "municipios": [
-                "Chinandega",
-                "El Viejo",
-                "Corinto",
-                "Somotillo",
-                "Villanueva",
-                "Puerto Morazán",
-                "San Pedro del Norte",
-                "San Francisco del Norte",
-                "San Juan de Cinco Pinos",
-                "El Realejo"
-            ]
-        },
-        {
-            "nombre": "Masaya",
-            "municipios": [
-                "Masaya",
-                "Nindirí",
-                "Niquinohomo",
-                "Catarina",
-                "San Juan de Oriente",
-                "Tisma",
-                "Masatepe",
-                "La Concepción"
-            ]
-        },
-        {
-            "nombre": "Granada",
-            "municipios": [
-                "Granada",
-                "Nandaime",
-                "Diriomo",
-                "Diriá"
-            ]
-        },
-        {
-            "nombre": "Carazo",
-            "municipios": [
-                "Jinotepe",
-                "Diriamba",
-                "San Marcos",
-                "El Rosario",
-                "La Paz de Carazo",
-                "Santa Teresa",
-                "Dolores"
-            ]
-        },
-        {
-            "nombre": "Rivas",
-            "municipios": [
-                "Rivas",
-                "San Juan del Sur",
-                "Tola",
-                "Belén",
-                "Potosí",
-                "Buenos Aires",
-                "Cárdenas",
-                "San Jorge",
-                "Altagracia",
-                "Moyogalpa"
-            ]
-        },
-        {
-            "nombre": "Estelí",
-            "municipios": [
-                "Estelí",
-                "Condega",
-                "Pueblo Nuevo",
-                "San Juan de Limay",
-                "La Trinidad",
-                "San Nicolás"
-            ]
-        },
-        {
-            "nombre": "Madriz",
-            "municipios": [
-                "Somoto",
-                "San Lucas",
-                "Las Sabanas",
-                "San José de Cusmapa",
-                "Totogalpa",
-                "Telpaneca",
-                "Palacagüina",
-                "Yalagüina"
-            ]
-        },
-        {
-            "nombre": "Nueva Segovia",
-            "municipios": [
-                "Ocotal",
-                "Ciudad Antigua",
-                "El Jícaro",
-                "Jalapa",
-                "Macuelizo",
-                "Mozonte",
-                "Quilalí",
-                "San Fernando",
-                "Santa María",
-                "Dipilto"
-            ]
-        },
-        {
-            "nombre": "Jinotega",
-            "municipios": [
-                "Jinotega",
-                "San Rafael del Norte",
-                "San Sebastián de Yalí",
-                "La Concordia",
-                "Santa María de Pantasma",
-                "El Cuá",
-                "Wiwilí de Jinotega"
-            ]
-        },
-        {
-            "nombre": "Matagalpa",
-            "municipios": [
-                "Matagalpa",
-                "San Ramón",
-                "San Dionisio",
-                "Esquipulas",
-                "San Isidro",
-                "Sebaco",
-                "Terrabona",
-                "Ciudad Darío",
-                "El Tuma-La Dalia",
-                "Río Blanco",
-                "Rancho Grande",
-                "La Paz Centro"
-            ]
-        },
-        {
-            "nombre": "Boaco",
-            "municipios": [
-                "Boaco",
-                "Camoapa",
-                "San Lorenzo",
-                "Santa Lucía",
-                "Teustepe",
-                "San José de los Remates"
-            ]
-        },
-        {
-            "nombre": "Chontales",
-            "municipios": [
-                "Juigalpa",
-                "Acoyapa",
-                "Comalapa",
-                "El Coral",
-                "La Libertad",
-                "San Pedro de Lóvago",
-                "Santo Domingo",
-                "Villa Sandino"
-            ]
-        },
-        {
-            "nombre": "Río San Juan",
-            "municipios": [
-                "San Carlos",
-                "El Castillo",
-                "San Juan de Nicaragua",
-                "Morrito",
-                "San Miguelito"
-            ]
-        },
-        {
-            "nombre": "Atlántico Norte",
-            "municipios": [
-                "Puerto Cabezas",
-                "Waspam",
-                "Bonanza",
-                "Rosita",
-                "Siuna",
-                "Prinzapolka",
-                "Mulukukú"
-            ]
-        },
-        {
-            "nombre": "Atlántico Sur",
-            "municipios": [
-                "Bluefields",
-                "Corn Island",
-                "Laguna de Perlas",
-                "Kukra Hill",
-                "El Rama",
-                "Muelle de los Bueyes",
-                "La Cruz de Río Grande",
-                "Desembocadura de Río Grande"
-            ]
-        }
-    ]
+  "department": [
+    {
+      "name": "Managua",
+      "municipalities": [
+        "Managua",
+        "Ciudad Sandino",
+        "Tipitapa",
+        "Ticuantepe",
+        "San Rafael del Sur",
+        "El Crucero",
+        "Villa El Carmen",
+        "Mateare",
+        "San Francisco Libre"
+      ]
+    },
+    {
+      "name": "León",
+      "municipalities": [
+        "León",
+        "La Paz Centro",
+        "Nagarote",
+        "El Jicaral",
+        "Telica",
+        "Quezalguaque",
+        "Santa Rosa del Peñón",
+        "Malpaisillo",
+        "Achuapa",
+        "El Sauce",
+        "Larreynaga"
+      ]
+    },
+    {
+      "name": "Chinandega",
+      "municipalities": [
+        "Chinandega",
+        "El Viejo",
+        "Corinto",
+        "Somotillo",
+        "Villanueva",
+        "Puerto Morazán",
+        "San Pedro del Norte",
+        "San Francisco del Norte",
+        "Cinco Pinos",
+        "El Realejo",
+        "Chichigalpa",
+        "Posoltega",
+        "Santo Tomás del Norte"
+      ]
+    },
+    {
+      "name": "Masaya",
+      "municipalities": [
+        "Masaya",
+        "Nindirí",
+        "Niquinohomo",
+        "Catarina",
+        "San Juan de Oriente",
+        "Tisma",
+        "Masatepe",
+        "La Concepción",
+        "Nandasmo"
+      ]
+    },
+    {
+      "name": "Granada",
+      "municipalities": [
+        "Granada",
+        "Nandaime",
+        "Diriomo",
+        "Diriá"
+      ]
+    },
+    {
+      "name": "Carazo",
+      "municipalities": [
+        "Jinotepe",
+        "Diriamba",
+        "San Marcos",
+        "El Rosario",
+        "La Paz de Carazo",
+        "Santa Teresa",
+        "Dolores",
+        "La Conquista"
+      ]
+    },
+    {
+      "name": "Rivas",
+      "municipalities": [
+        "Rivas",
+        "San Juan del Sur",
+        "Tola",
+        "Belén",
+        "Potosí",
+        "Buenos Aires",
+        "Cárdenas",
+        "San Jorge",
+        "Altagracia",
+        "Moyogalpa"
+      ]
+    },
+    {
+      "name": "Estelí",
+      "municipalities": [
+        "Estelí",
+        "Condega",
+        "Pueblo Nuevo",
+        "San Juan de Limay",
+        "La Trinidad",
+        "San Nicolás"
+      ]
+    },
+    {
+      "name": "Madriz",
+      "municipalities": [
+        "Somoto",
+        "San Lucas",
+        "Las Sabanas",
+        "San José de Cusmapa",
+        "Totogalpa",
+        "Telpaneca",
+        "Palacagüina",
+        "Yalagüina",
+        "San Juan de Río Coco"
+      ]
+    },
+    {
+      "name": "Nueva Segovia",
+      "municipalities": [
+        "Ocotal",
+        "Ciudad Antigua",
+        "El Jícaro",
+        "Jalapa",
+        "Macuelizo",
+        "Mozonte",
+        "Quilalí",
+        "San Fernando",
+        "Santa María",
+        "Dipilto",
+        "Murra",
+        "Wiwilí de Nueva Segovia"
+      ]
+    },
+    {
+      "name": "Jinotega",
+      "municipalities": [
+        "Jinotega",
+        "San Rafael del Norte",
+        "San Sebastián de Yalí",
+        "La Concordia",
+        "Santa María de Pantasma",
+        "El Cuá",
+        "Wiwilí de Jinotega",
+        "San José de Bocay"
+      ]
+    },
+    {
+      "name": "Matagalpa",
+      "municipalities": [
+        "Matagalpa",
+        "San Ramón",
+        "San Dionisio",
+        "Esquipulas",
+        "San Isidro",
+        "Sébaco",
+        "Terrabona",
+        "Ciudad Darío",
+        "El Tuma-La Dalia",
+        "Río Blanco",
+        "Rancho Grande",
+        "Matiguás",
+        "Muy Muy"
+      ]
+    },
+    {
+      "name": "Boaco",
+      "municipalities": [
+        "Boaco",
+        "Camoapa",
+        "San Lorenzo",
+        "Santa Lucía",
+        "Teustepe",
+        "San José de los Remates"
+      ]
+    },
+    {
+      "name": "Chontales",
+      "municipalities": [
+        "Juigalpa",
+        "Acoyapa",
+        "Comalapa",
+        "El Coral",
+        "La Libertad",
+        "San Pedro de Lóvago",
+        "Santo Domingo",
+        "Villa Sandino",
+        "Santo Tomás",
+        "San Francisco de Cuapa"
+      ]
+    },
+    {
+      "name": "Río San Juan",
+      "municipalities": [
+        "San Carlos",
+        "El Castillo",
+        "San Juan de Nicaragua",
+        "Morrito",
+        "San Miguelito",
+        "El Almendro"
+      ]
+    },
+    {
+      "name": "Costa Caribe Norte",
+      "municipalities": [
+        "Puerto Cabezas",
+        "Waspam",
+        "Bonanza",
+        "Rosita",
+        "Siuna",
+        "Prinzapolka",
+        "Mulukukú"
+      ]
+    },
+    {
+      "name": "Costa Caribe Sur",
+      "municipalities": [
+        "Bluefields",
+        "Corn Island",
+        "Laguna de Perlas",
+        "Kukra Hill",
+        "El Rama",
+        "Muelle de los Bueyes",
+        "La Cruz de Río Grande",
+        "Desembocadura de Río Grande",
+        "Paiwas",
+        "El Ayote",
+        "Nueva Guinea",
+        "El Tortuguero"
+      ]
+    }
+  ]
 }
